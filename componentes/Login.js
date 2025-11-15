@@ -51,7 +51,7 @@ export default function LoginPage({ navigation }) {
           secureTextEntry
         />
         <TouchableOpacity 
-          style={[styles.button, styles.buttonCyan, {width: '100%'}]} 
+          style={[styles.button, styles.buttonCyan, styles.buttonForm]} 
           onPress={handleLogin}
           disabled={loading}
         >
@@ -66,4 +66,3 @@ export default function LoginPage({ navigation }) {
     </SafeAreaView>
   );
 }
-

@@ -51,7 +51,7 @@ export default function RegisterPage({ navigation }) {
           secureTextEntry
         />
         <TouchableOpacity 
-          style={[styles.button, styles.buttonCyan, {width: '100%'}]} 
+          style={[styles.button, styles.buttonCyan, styles.buttonForm]} 
           onPress={handleRegister}
           disabled={loading}
         >

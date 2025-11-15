@@ -62,6 +62,11 @@ export const styles = StyleSheet.create({
     justifyContent: 'center',
     flex: 1, // Para que ocupen espacio en 'cardActions'
   },
+  buttonForm: { // Estilo específico para botones de formulario (Login/Registro)
+    width: '100%',
+    paddingVertical: 15,
+    flex: 0, // Sobrescribe el flex: 1 del estilo base
+  },
   buttonCyan: {
     backgroundColor: '#06B6D4',
   },
@@ -75,7 +80,7 @@ export const styles = StyleSheet.create({
   buttonText: {
     color: '#FFF',
     fontWeight: '600',
-    fontSize: 14,
+    fontSize: 16,
   },
   // --- Tarjetas ---
   card: {
